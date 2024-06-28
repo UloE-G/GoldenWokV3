@@ -1,1 +1,1 @@
-web: gunicorn goldenwok.wsgiS
+web: gunicorn goldenwok.wsgi
