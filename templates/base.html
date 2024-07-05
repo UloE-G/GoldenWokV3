@@ -8,7 +8,7 @@
         <meta name="author" content="" />
         <title>Golden Wok</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href={% static 'image/favicon.ico' %} />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Bootstrap 5.1 -->
@@ -24,7 +24,9 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-black" id="mainNav">
             <div class="container">
-                <a class="navbar-brand logo" href="#page-top"><img src={% static 'image/logo.png' %} alt="logo" /></a>
+                <a class="navbar-brand logo" href="#page-top">
+                    <img src="{% static 'image/logo.png'%}" alt="logo" />
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
