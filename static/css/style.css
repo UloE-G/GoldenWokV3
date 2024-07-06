@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body {
     position: relative;
 }
@@ -154,6 +156,39 @@ section#open li {
     color: #fff;
     background-color: gold;
     border-color: gold;
+}
+
+
+/* Sign Out */
+#signout {
+    background-color: gold;
+    border-radius: 5%;
+}
+
+
+.mtso {
+    margin-top: 41vh;
+}
+
+
+.mbso {
+    margin-bottom: 33vh;
+}
+
+
+#signout h3 {
+    text-align: center;
+}
+
+
+#signout p {
+    text-align: center;
+}
+
+
+.btn-signup {
+    background-color: black;
+    color: white;
 }
 
 
