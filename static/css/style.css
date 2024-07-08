@@ -39,6 +39,11 @@ body {
 }
 
 
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #ffc800;
+}
+
+
 .logo img{
     height: 50px;
     border-radius: 50%;
@@ -159,23 +164,18 @@ section#open li {
 }
 
 
+/* Sign In */
+#signin h3 {
+    text-align: center;
+}
+
+
+#signin h4 {
+    text-align: center;
+    color: gold;
+}
+
 /* Sign Out */
-#signout {
-    background-color: gold;
-    border-radius: 5%;
-}
-
-
-.mtso {
-    margin-top: 41vh;
-}
-
-
-.mbso {
-    margin-bottom: 33vh;
-}
-
-
 #signout h3 {
     text-align: center;
 }
@@ -185,11 +185,7 @@ section#open li {
     text-align: center;
 }
 
-
-.btn-signup {
-    background-color: black;
-    color: white;
-}
+/* Register */
 
 
 /* Misc */
@@ -213,4 +209,23 @@ h2, h4 {
 
 .mb8rem {
     margin-bottom: 8rem;
+}
+
+
+.mtso {
+    margin-top: 41vh;
+}
+
+
+.mbso {
+    margin-bottom: 33vh;
+}
+
+.btn-signup {
+    background-color: black;
+    color: white;
+}
+
+.btn-signup:hover {
+    color: gold;
 }
