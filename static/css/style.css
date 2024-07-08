@@ -72,21 +72,21 @@ header.masthead .masthead-subheading {
     font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-
-header.masthead .masthead-subheading {
-    font-size: 1.5rem;
-    font-style: italic;
-    line-height: 1.5rem;
-    margin-bottom: 25px;
-    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
 header.masthead .masthead-heading {
     font-size: 3.25rem;
     font-weight: 700;
     line-height: 3.25rem;
     margin-bottom: 2rem;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (min-width: 768px) {
+    header.masthead .masthead-subheading {
+        font-size: 2.25rem;
+        font-style: italic;
+        line-height: 2.25rem;
+        margin-bottom: 2rem;
+    }
 }
 
 
@@ -124,11 +124,6 @@ header.masthead .masthead-heading {
     background-color: goldenrod;
     border-color: goldenrod;
 }
-
-/* path {
-    background-color: gold;
-    border-color: gold;
-} */
 
 
 /* Open */
@@ -184,6 +179,7 @@ section#open li {
 #signout p {
     text-align: center;
 }
+
 
 /* Register */
 
