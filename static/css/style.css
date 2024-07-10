@@ -98,6 +98,11 @@ header.masthead .masthead-heading {
 }
 
 /* About Us */
+.mb8rem {
+    margin-bottom: 8rem;
+}
+
+
 .page-section h2.section-heading, .page-section .section-heading.h2 {
     font-size: 2.5rem;
     margin-top: 0;
@@ -158,7 +163,43 @@ section#open li {
     border-color: gold;
 }
 
+/* Menu */
+#menu {
+    margin: 4rem;
+}
+
+
+.breakfast {
+    border-radius: 5%;
+    color: gold;
+    margin: 2rem;
+}
+
+
+section#menu p {
+    font-weight: bolder;
+}
+
+
+.evening {
+    border-radius: 5%;
+    margin: 2rem;
+}
+
+
+.night {
+    border-radius: 5%;
+    color: gold;
+    margin: 2rem;
+}
+
+
 /* Contact */
+.mb15rem {
+    margin-bottom: 15rem;
+}
+
+
 section#contact {
     background-color: #212529;
     background-image: url(../image/contactimg.jpg);
@@ -235,15 +276,15 @@ section#contact form#contactForm .form-group-textarea textarea {
 }
 
 
-h2, h4 {
+h2, h3, h4 {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     line-height: 1.2;
 }
 
 
-.mb8rem {
-    margin-bottom: 8rem;
+p {
+    line-height: 1.75;
 }
 
 
@@ -263,4 +304,8 @@ h2, h4 {
 
 .btn-signup:hover {
     color: gold;
+}
+
+.bg-gold {
+    background-color: gold;
 }
