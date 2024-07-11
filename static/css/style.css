@@ -54,6 +54,7 @@ body {
 header.masthead {
     padding-top: 10.5rem;
     padding-bottom: 6rem;
+    margin-bottom: 4rem;
     text-align: center;
     color: #fff;
     background-image: url("../image/bgphoto.jpg");
@@ -140,6 +141,7 @@ section#open li {
 
 /* Footer */
 .footer {
+    margin-top: 4rem;
     text-align: center;
     font-size: 0.9rem;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -164,15 +166,9 @@ section#open li {
 }
 
 /* Menu */
-#menu {
-    margin: 4rem;
-}
-
-
 .breakfast {
     border-radius: 5%;
     color: gold;
-    margin: 2rem;
 }
 
 
@@ -183,14 +179,12 @@ section#menu p {
 
 .evening {
     border-radius: 5%;
-    margin: 2rem;
 }
 
 
 .night {
     border-radius: 5%;
     color: gold;
-    margin: 2rem;
 }
 
 
