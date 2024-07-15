@@ -130,10 +130,7 @@
                         <h3>Leave a Review:</h3>
                         <p>Posting as: {{ user.username }}</p>
                         <form id="commentForm" method="post" style="margin-top: 1.3em;">
-                            <div id="div_id_body" class="mb-3"> 
-                                <label for="id_body" class="form-label requiredField">
-                                    <!-- Body<span class="asteriskField">*</span>  -->
-                                </label> 
+                            <div id="div_id_body" class="mb-3">  
                                 {{ comment_form | crispy }}
                                 {% csrf_token %}
                             <button id="submitButton" type="submit"
