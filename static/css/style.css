@@ -207,6 +207,12 @@ section#contact .section-heading {
 }
 
 
+#contact label.form-label {
+    font-weight: bold;
+}
+
+
+/*
 section#contact form#contactForm .form-group {
     margin-bottom: 1.5rem;
 }
@@ -230,7 +236,7 @@ section#contact form#contactForm .form-group-textarea {
 section#contact form#contactForm .form-group-textarea textarea {
     height: 100%;
     min-height: 10rem;
-} 
+}  */
 
 
 /* Sign In */
