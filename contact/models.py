@@ -8,3 +8,14 @@ class Contact(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class CollaborateRequest(models.Model):
+    name = models.CharField(max_length=200)
+    email = models.EmailField()
+    message = models.TextField()
+    number = models.IntegerField()
+    read = models.BooleanField(default=False)
+
+    def __str__(self):
+        return f"Booking request from {self.name}"
