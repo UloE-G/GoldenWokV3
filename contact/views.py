@@ -7,10 +7,13 @@ def contact_me(request):
     """
     Renders the Contact page
     """
+    print("Rendering template")
 
     if request.method == "POST":
+        print("Recived post request")
         collaborate_form = CollaborateForm(data=request.POST)
         if collaborate_form.is_valid():
+            print("Valid request")
             collaborate_form.save()
             messages.add_message(request, messages.SUCCESS, 
             "Booking request received! our team typically responds within 12 Hours.")
