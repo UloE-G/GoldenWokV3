@@ -2,7 +2,7 @@
 
 Golden Wok is a resturant created for People who are looking for authentic Chinese cuisine. This app allows users to see the menu, leave a review and book a table in advance. This app aims to give users a quick and easy way to understand what the resturant is about and decided whether or not they would like to dine here.
 
-[View live Project Here](https://ugolden-wok-0812afc9caf2.herokuapp.com/)
+[View live Project Here.](https://ugolden-wok-0812afc9caf2.herokuapp.com/)
 
 ## User Stories
 
@@ -77,7 +77,7 @@ This section goes over the different parts of this project. An explaination will
 
     - This allows users to see other peoples opinons and express there own opinons about the resturant.
 
-![Reviews]()
+![Reviews](static/image/reviewsection.png)
 
 ### Menu Page
 
@@ -179,3 +179,27 @@ This section goes over the different parts of this project. An explaination will
 - **Login Page**
 
 ![login Page](static/image/loginwire.png)
+
+## Deployment
+
+- This site was deployed on the Heroku app. The steps to deploy are as follows:
+
+  1. Create an account on [Heroku](https://dashboard.heroku.com/apps).
+
+  2. In the Heroku Dashboard click create a new app.
+
+  3. Type in the app name (ugolden-wok) and select region (Europe)
+
+  4. Once done go to settings and click reveal config vars.
+
+  5. inside config vars add the word "SECRET_KEY" to key with a value of the secret key you name.
+
+  7. Another value is added, this one being the word "DATABASE_URL" to the key with a value of your postgress URL.
+
+  7. Then go to deploy and click on the Github deploy method.
+
+  8. Then connect you app to your repository.
+
+  9. Finally click on the deploy branch on the manual deploy section at the bottom of the page.
+
+[View live project here.](https://ugolden-wok-0812afc9caf2.herokuapp.com/)
