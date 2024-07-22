@@ -148,3 +148,34 @@ This section goes over the different parts of this project. An explaination will
 - Black was then used to contrast with the gold
 
 ![Black Gold Colors](static/image/blackgold.png)
+
+### Wireframes
+
+- **Introduction Page**
+
+![Intro Wireframe](static/image/intowire.png)
+
+- **Opening Hours Section**
+
+![Opening Hours Wireframe](static/image/openwire.png)
+
+
+- **Menu Page**
+
+![Menu Page](static/image/menuwire.png)
+
+- **Contact Page**
+
+![Contact Page](static/image/contactwire.png)
+
+- **Register Page**
+
+![Regster Page](static/image/signupage.png)
+
+- **Sign Out Page**
+
+![Sign out Page](static/image/signoutwire.png)
+
+- **Login Page**
+
+![login Page](static/image/loginwire.png)
