@@ -1,21 +1,21 @@
 from django.shortcuts import render, get_object_or_404
 from django.views import generic
-from .models import Post
+from .models import Post, Comment
 from .forms import CommentForm
 from django.contrib import messages
 
 # Create your views here.
-def post_list_and_review(request, slug=None):
+def post_list_and_review(request):
     queryset = Post.objects.filter(status=1)
     post = None
-    comments = None
+    comments = Comment.objects.all()
     comment_count = None
     comment_form = None
 
-    if slug:
-        post = get_object_or_404(queryset, slug=slug)
-        comments = post.comments.all().order_by("-created_on")
-        comment_count = post.comments.filter(approved=True).count()
+    # if slug:
+    #     post = get_object_or_404(queryset, slug=slug)
+    #     comments = post.comments.all().order_by("-created_on")
+    #     comment_count = post.comments.filter(approved=True).count()
 
     if request.method == "POST":
         print("Received a POST request")
@@ -35,24 +35,16 @@ def post_list_and_review(request, slug=None):
     comment_form = CommentForm()
     print("About to render template")
 
-    # context = {
-    #     "post": post,
-    #     "comments": comments,
-    #     "comment_count": comment_count,
-    #     "comment_form": comment_form,
-    # }
+    context = {
+        "post": post,
+        "comments": comments,
+        "comment_count": comment_count,
+        "comment_form": comment_form,
+    }
 
     # if post:
     #     template_name = "about/index.html"
     # else:
     #     template_name = "about/other_template.html"
 
-    return render(
-        request, 
-        "about/index.html",
-        {
-            "post": post,
-            "comments": comments,
-            "comment_count": comment_count,
-            "comment_form": comment_form,
-        },)
+    return render(request, "about/index.html", context)
