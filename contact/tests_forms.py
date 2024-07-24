@@ -9,7 +9,7 @@ class TestCollaborateForm(TestCase):
         form = CollaborateForm({
             'name': 'Test',
             'email': 'test@test.com',
-            'number': '0872131234',
+            'number': '0871236749',
             'message': 'Hello!'
         })
         self.assertTrue(form.is_valid(), msg="Form is not valid")
@@ -19,6 +19,7 @@ class TestCollaborateForm(TestCase):
         form = CollaborateForm({
             'name': '',
             'email': 'test@test.com',
+            'number': '0871236749',
             'message': 'Hello!'
         })
         self.assertFalse(
@@ -31,6 +32,7 @@ class TestCollaborateForm(TestCase):
         form = CollaborateForm({
             'name': 'Matt',
             'email': '',
+            'number': '0871236749',
             'message': 'Hello!'
         })
         self.assertFalse(
@@ -43,9 +45,23 @@ class TestCollaborateForm(TestCase):
         form = CollaborateForm({
             'name': 'Matt',
             'email': 'test@test.com',
+            'number': '0871236749',
             'message': ''
         })
         self.assertFalse(
             form.is_valid(),
             msg="Message was not provided, but the form is valid"
+        )
+
+    def test_number_is_required(self):
+        """Test for the 'message' field"""
+        form = CollaborateForm({
+            'name': 'Matt',
+            'email': 'test@test.com',
+            'number': '',
+            'message': 'Hello'
+        })
+        self.assertFalse(
+            form.is_valid(),
+            msg="Number was not provided, but the form is valid"
         )
