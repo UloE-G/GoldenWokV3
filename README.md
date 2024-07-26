@@ -203,3 +203,25 @@ This section goes over the different parts of this project. An explaination will
   9. Finally click on the deploy branch on the manual deploy section at the bottom of the page.
 
 [View live project here.](https://ugolden-wok-0812afc9caf2.herokuapp.com/)
+
+## Credits
+
+### Layout
+
+- The layout of the project was inspired by the agency theme obtained by [Start Bootsrap](https://startbootstrap.com/previews/agency).
+
+### Logo
+
+- The logo was created using [Looka](https://looka.com/logo-maker/?gad_source=1&gclid=CjwKCAjwko21BhAPEiwAwfaQCBaSXuNOSQH7pCUHNiMb9HN7ELRIqC5eUdh3_e5hNUJSRkRM4QMiYhoC4acQAvD_BwE).
+
+### Buttons
+
+- The button images were gotten from [fontawesome.com](https://fontawesome.com/).
+
+### Reviews Form
+
+- The Review section layout was taken from the code institute [i think therefore i blog](https://learn.codeinstitute.net/ci_program/diplomainfullstacksoftwarecommoncurriculum).
+
+### Contact Form
+
+- The Contact section layout was also taken from the code institute [i think therefore i blog](https://learn.codeinstitute.net/ci_program/diplomainfullstacksoftwarecommoncurriculum).
