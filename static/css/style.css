@@ -90,7 +90,6 @@ header.masthead .masthead-heading {
     }
 }
 
-
 .btn-xl {
     padding: 1.25rem 2.5rem;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -98,19 +97,22 @@ header.masthead .masthead-heading {
     font-weight: 700;
 }
 
+header.masthead .btn {
+    color: black;
+}
+
 /* About Us */
 .mb8rem {
     margin-bottom: 8rem;
 }
-
 
 .page-section h2.section-heading, .page-section .section-heading.h2 {
     font-size: 2.5rem;
     margin-top: 0;
     margin-bottom: 1rem;
     color: gold;
+    background-color: black;
 }
-
 
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
     font-size: 1rem;
@@ -149,18 +151,15 @@ section#open li {
     border-color: gold;
 }
 
-
 .btn-edit {
     color: #fff;
     background-color: black;
     border-color: black;
 }
 
-
 .btn-edit:hover {
     color: gold;
 }
-
 
 /* Footer */
 .footer {
@@ -181,7 +180,6 @@ section#open li {
     border-radius: 100%;
 }
 
-
 .btn-gold {
     color: #fff;
     background-color: gold;
@@ -194,16 +192,13 @@ section#open li {
     color: gold;
 }
 
-
 section#menu p {
     font-weight: bolder;
 }
 
-
 .evening {
     border-radius: 5%;
 }
-
 
 .night {
     border-radius: 5%;
@@ -216,7 +211,6 @@ section#menu p {
     margin-bottom: 15rem;
 }
 
-
 section#contact {
     background-color: #212529;
     background-image: url(../image/contactimg.jpg);
@@ -224,11 +218,9 @@ section#contact {
     background-position: center;
 }
 
-
 section#contact .section-heading {
     color: #fff;
 }
-
 
 #contact label.form-label {
     font-weight: bold;
@@ -240,7 +232,6 @@ section#contact .section-heading {
     text-align: center;
 }
 
-
 #signin h4 {
     text-align: center;
     color: gold;
@@ -250,7 +241,6 @@ section#contact .section-heading {
 #signout h3 {
     text-align: center;
 }
-
 
 #signout p {
     text-align: center;
@@ -263,11 +253,9 @@ section#contact .section-heading {
     --bs-gutter-y: 0;
 }
 
-
 .page-section {
     padding: 6rem 0;
 }
-
 
 h2, h3, h4 {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -275,16 +263,13 @@ h2, h3, h4 {
     line-height: 1.2;
 }
 
-
 p {
     line-height: 1.75;
 }
 
-
 .mtso {
     margin-top: 41vh;
 }
-
 
 .mbso {
     margin-bottom: 33vh;
