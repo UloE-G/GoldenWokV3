@@ -219,11 +219,15 @@ section#contact {
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: gold;
 }
 
 #contact label.form-label {
     font-weight: bold;
+    color: gold;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10%;
 }
 
 
