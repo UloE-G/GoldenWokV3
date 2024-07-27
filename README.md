@@ -180,6 +180,39 @@ This section goes over the different parts of this project. An explaination will
 
 ![login Page](static/image/loginwire.png)
 
+## Testing
+
+### Validator Testing
+
+**HTML**
+
+- No Errors were shown on the following pages:
+
+    - base.html
+    - index.html
+    - contact.html
+    - menu.html
+    - login.html
+    - logout.html
+
+![No HTML Errors](static/image/noerrors.png)
+
+- The signup page was the only page to recieve error warnings.
+
+- These errors were coming from the django model itself which means there was nothing I could do to fix it.
+
+- These errors did not affect the overall perfomace of the app.
+
+![HTML Error](static/image/errorshtml.png)
+
+**CSS**
+
+- No Css errors were found 
+
+link can be found [here]().
+
+1[CSS Errors]()
+
 ## Deployment
 
 - This site was deployed on the Heroku app. The steps to deploy are as follows:
