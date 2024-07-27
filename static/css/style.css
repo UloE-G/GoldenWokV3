@@ -148,13 +148,11 @@ section#open li {
 .btn-delete {
     color: #fff;
     background-color: gold;
-    border-color: gold;
 }
 
 .btn-edit {
     color: #fff;
     background-color: black;
-    border-color: black;
 }
 
 .btn-edit:hover {
@@ -183,7 +181,6 @@ section#open li {
 .btn-gold {
     color: #fff;
     background-color: gold;
-    border-color: gold;
 }
 
 /* Menu */
