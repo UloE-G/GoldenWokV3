@@ -215,6 +215,37 @@ This section goes over the different parts of this project. An explaination will
 
 link can be found [here](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fugolden-wok-0812afc9caf2.herokuapp.com%2F&usermedium=all&vextwarning=&warning=1).
 
+**Javascript**
+
+- The comments.js was ran through [JSHint.com](https://jshint.com/) and recived:
+
+    - 19 Warnings.
+    - 1 undefined variable.
+
+**Accessability**
+
+- I can confirm that the colors and fonts are easy to read and accesible by running it through lighthouse in devtools.
+
+![Accessability](static/image/accessability.png)
+
+**Compatibility**
+
+- I tested to see if the website would work on Google Chrome, Microsoft Edge and Firefox and an Iphone 8.
+
+### Manual Testing
+
+|What was tested|Result|
+|---|---|
+|Nav Bar Links work|Pass|
+|Nav Bar changes passed on screen width|Pass|
+|Each page load correctly|Pass|
+|Reviews are visible|Pass|
+|User can make a review|Pass|
+|User can edit a review|Pass|
+|User can delete a review|Pass|
+|User can make a reservation|Pass|
+|Footer Links work|Pass|
+
 ## Deployment
 
 - This site was deployed on the Heroku app. The steps to deploy are as follows:
