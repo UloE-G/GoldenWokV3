@@ -182,6 +182,21 @@ This section goes over the different parts of this project. An explaination will
 
 ![login Page](static/image/loginwire.png)
 
+## Technologies Used
+
+This project used a varitey of coding languages, tools, librares and frameworks to build, style and run the app.
+
+### Languages
+
+- HTML
+- CSS
+- Javascript
+- Python
+
+### Libraries & Frameworks
+
+
+
 ## Testing
 
 ### Validator Testing
@@ -245,6 +260,8 @@ link can be found [here](http://jigsaw.w3.org/css-validator/validator?lang=en&pr
 |User can delete a review|Pass|
 |User can make a reservation|Pass|
 |Footer Links work|Pass|
+
+## Issues
 
 ## Deployment
 
