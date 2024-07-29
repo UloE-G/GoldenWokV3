@@ -4,7 +4,7 @@ from .models import Contact
 from .forms import CollaborateForm
 
 
-class TestAboutView(TestCase):
+class TestContactView(TestCase):
 
     def setUp(self):
         """Creates Contact content"""
@@ -12,8 +12,8 @@ class TestAboutView(TestCase):
             title="Contact", content="Contact page.")
         self.contact_content.save()
 
-    def test_render_about_page_with_collaborate_form(self):
-        """Verifies get request for about me containing a collaboration form"""
+    def test_render_contact_page_with_booking_form(self):
+        """Verifies get request for contact containing a booking request"""
         response = self.client.get(reverse('contact'))
         self.assertEqual(response.status_code, 200)
         self.assertIn(b'Contact', response.content)
