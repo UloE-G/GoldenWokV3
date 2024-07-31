@@ -5,6 +5,7 @@ from .models import Post, Comment
 from .forms import CommentForm
 from django.contrib import messages
 
+
 # Create your views here.
 def post_list_and_review(request):
     queryset = Post.objects.filter(status=1)
@@ -20,14 +21,12 @@ def post_list_and_review(request):
             print("Valid form")
             comment = comment_form.save(commit=False)
             comment.author = request.user
-            comment.post_id = request.POST.get('post')  # Set the post_id directly
+            # Set the post_id directly
+            comment.post_id = request.POST.get('post')
             comment.save()
-            messages.add_message(
-            request, messages.SUCCESS,
-            'Comment submitted and awaiting approval'
-            )
+            messages.add_message
+            (request, messages.SUCCESS, 'Comment submitted, awaiting approval')
 
-    
     comment_form = CommentForm()
     print("About to render template")
 
@@ -39,6 +38,7 @@ def post_list_and_review(request):
     }
 
     return render(request, "about/index.html", context)
+
 
 def comment_edit(request, comment_id):
     """
@@ -56,9 +56,11 @@ def comment_edit(request, comment_id):
             comment.save()
             messages.add_message(request, messages.SUCCESS, 'Comment Updated!')
         else:
-            messages.add_message(request, messages.ERROR, 'Error updating comment!')
+            messages.add_message
+            (request, messages.ERROR, 'Error updating comment!')
 
     return HttpResponseRedirect(reverse('about'))
+
 
 def comment_delete(request, comment_id):
     """
@@ -71,6 +73,7 @@ def comment_delete(request, comment_id):
         comment.delete()
         messages.add_message(request, messages.SUCCESS, 'Comment deleted!')
     else:
-        messages.add_message(request, messages.ERROR, 'You can only delete your own comments!')
+        messages.add_message
+        (request, messages.ERROR, 'You can only delete your own comments!')
 
     return HttpResponseRedirect(reverse('about'))
