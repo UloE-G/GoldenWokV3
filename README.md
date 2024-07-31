@@ -195,6 +195,28 @@ This project used a varitey of coding languages, tools, librares and frameworks 
 
 ### Libraries & Frameworks
 
+- Bootstrap 5.1.3
+- Crispy Bootstrap5 0.7
+- Django Allauth 0.57.2
+- Django 4.2.13
+- Django Summernote 0.8.20.0
+- Gunicorn 20.1.0
+- Heroku
+- PostgresSQL
+- Psycopg2 2.9.9
+- Sqlparse 0.5.0
+- Whitenoise 5.3.0
+
+### Tools
+- Github
+- Gitpod
+- W3C HTML Validator 
+- W3C CSS Validator 
+- JSHint
+- Font Awsome
+- Pexel
+- Adobe Stock
+- Looka
 
 
 ## Testing
@@ -237,6 +259,20 @@ link can be found [here](http://jigsaw.w3.org/css-validator/validator?lang=en&pr
     - 19 Warnings.
     - 1 undefined variable.
 
+**Python**
+
+- Python code was ran through the [CI Python Linter](https://pep8ci.herokuapp.com/)
+
+    - There were no errors for any of the python code in the menu, contact and about
+
+    - In goldenwok settings.py file there were:
+
+        - 5 Errors
+
+        - 1 Warning
+
+    - I did not change them as these were Django code and I figured it was best not to alter it.
+
 **Accessability**
 
 - I can confirm that the colors and fonts are easy to read and accesible by running it through lighthouse in devtools.
@@ -261,7 +297,15 @@ link can be found [here](http://jigsaw.w3.org/css-validator/validator?lang=en&pr
 |User can make a reservation|Pass|
 |Footer Links work|Pass|
 
-## Issues
+## Bugs
+
+### Resolved Bugs
+
+- At one point, the review section comment form did not load when the app was ran.
+
+- This was because it was created using Django crispy forms and the form was unable to read the post and review functions in about/view.py.
+
+- To fix this I had to merge the two functions into one.
 
 ## Deployment
 
@@ -308,3 +352,5 @@ link can be found [here](http://jigsaw.w3.org/css-validator/validator?lang=en&pr
 ### Contact Form
 
 - The Contact section layout was also taken from the code institute [i think therefore i blog](https://learn.codeinstitute.net/ci_program/diplomainfullstacksoftwarecommoncurriculum).
+
+### Media
