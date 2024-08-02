@@ -157,22 +157,33 @@ This section goes over the different parts of this project. An explaination will
 
 ![Intro Wireframe](static/image/intowire.png)
 
+![Intro Wireframe Mobile](static/image/mobileintro.png)
+
+![Intro Wireframe Mobile2](static/image/mobileintro2.png)
+
 - **Opening Hours Section**
 
 ![Opening Hours Wireframe](static/image/openwire.png)
 
+![Opening Hours Wireframe2](static/image/mobileopen.png)
 
 - **Menu Page**
 
 ![Menu Page](static/image/menuwire.png)
 
+![Menu page wireframe Mobile](static/image/menumobile.png)
+
 - **Contact Page**
 
 ![Contact Page](static/image/contactwire.png)
 
+![Contact Page Wireframe Mobile](static/image/contactmobile.png)
+
 - **Register Page**
 
 ![Regster Page](static/image/signupage.png)
+
+![Register Mobile page](static/image/signupmobile.png) 
 
 - **Sign Out Page**
 
