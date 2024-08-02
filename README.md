@@ -305,7 +305,9 @@ link can be found [here](http://jigsaw.w3.org/css-validator/validator?lang=en&pr
 
 - This was because it was created using Django crispy forms and the form was unable to read the post and review functions in about/view.py.
 
-- To fix this I had to merge the two functions into one.
+- To fix this I first had to merge the two functions into one.
+
+- I then went into the admin controls and created 3 post titles for my breakfast, evening and night menus.
 
 ## Deployment
 
@@ -329,7 +331,7 @@ link can be found [here](http://jigsaw.w3.org/css-validator/validator?lang=en&pr
 
   9. Finally click on the deploy branch on the manual deploy section at the bottom of the page.
 
-[View live project here.](https://ugolden-wok-0812afc9caf2.herokuapp.com/)
+[View live project here](https://ugolden-wok-0812afc9caf2.herokuapp.com/).
 
 ## Credits
 
@@ -354,3 +356,7 @@ link can be found [here](http://jigsaw.w3.org/css-validator/validator?lang=en&pr
 - The Contact section layout was also taken from the code institute [i think therefore i blog](https://learn.codeinstitute.net/ci_program/diplomainfullstacksoftwarecommoncurriculum).
 
 ### Media
+
+- The background image in the masthead was found on [Pexels.com](https://www.pexels.com/photo/photo-of-cafe-interior-1307698/).
+
+- The background image in the contact section was found on [Wallpaperflare.com](https://www.wallpaperflare.com/close-up-photo-of-formal-table-setting-blur-cutlery-dining-wallpaper-uiojm).
