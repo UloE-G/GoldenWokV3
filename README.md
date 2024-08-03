@@ -167,6 +167,12 @@ This section goes over the different parts of this project. An explaination will
 
 ![Opening Hours Wireframe2](static/image/mobileopen.png)
 
+- **Review Section**
+
+![Review Section Wireframe](static/image/reviewire.png)
+
+![Review Section Wireframe](static/image/reviewmobile.png)
+
 - **Menu Page**
 
 ![Menu Page](static/image/menuwire.png)
