@@ -98,7 +98,7 @@
                                 {{ comment.author }}
                                 <span class="font-weight-normal">
                                     {{ comment.created_on }}
-                                </span> wrote:
+                                </span> wrote about {{ comment.post }}:
                             </p>
                             <div id="comment{{ comment.id }}">
                                 {{ comment.body | linebreaks }}
