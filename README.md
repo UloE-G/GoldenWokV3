@@ -307,7 +307,10 @@ link can be found [here](http://jigsaw.w3.org/css-validator/validator?lang=en&pr
 |Nav Bar Links work|Pass|
 |Nav Bar changes passed on screen width|Pass|
 |Each page load correctly|Pass|
+|Pages formed correctly deping on device width|Pass|
 |Reviews are visible|Pass|
+|User can make a account|Pass|
+|User can sign out of account|Pass|
 |User can make a review|Pass|
 |User can edit a review|Pass|
 |User can delete a review|Pass|
